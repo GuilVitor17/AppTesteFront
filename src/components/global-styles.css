@@ -1,0 +1,24 @@
+.form{
+    width: 1200px;
+    position: relative;
+    display: grid;
+    display: flex;
+}
+
+.form > div{
+
+    width: 500px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    margin: 5px;
+
+}
+
+.form > .list{
+
+    width: 600px;
+    overflow-y:scroll;
+    height: 300px;
+
+}
